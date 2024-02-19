@@ -1,0 +1,502 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,350;1,350&family=Lobster&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+
+html {
+    scroll-behavior: smooth;
+    font-family: "Josefin Sans", sans-serif;
+
+
+}
+
+body {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #393E46;
+    height: 20vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 62vw auto auto;
+    align-items: center;
+
+}
+
+header h1 {
+    font-size: 4rem;
+    color: #FEFBF6;
+    margin: 0 0 0 9vw;
+}
+
+
+header a {
+    color: #FEFBF6;
+    text-decoration: none;
+    font-size: 1.5rem;
+
+}
+
+.one {
+    padding: 4vh 3vw;
+    /* font-size: 2vmin; */
+}
+
+
+/* about page  */
+.main {
+    /* height: 100vh; */
+    width: 100%;
+    background-color: #F2E7D5;
+    /* background-color: green; */
+
+}
+
+.info {
+    color: #163025;
+}
+
+.info #first {
+    text-align: center;
+    font-size: 4vmin;
+    margin: 5vmin 0 2vmin 0;
+}
+
+.info #second {
+    text-align: center;
+    margin: 0 0 5vmin 0;
+
+}
+
+.info h3 {
+    /* text-align: center; */
+    font-size: 5vmin;
+    margin: 3vmin 5vmin;
+
+}
+
+.info dl dt {
+    text-decoration: underline;
+    margin: 2vmin 5vmin;
+    font-size: 3vmin;
+}
+
+.info dl dd {
+    padding: 4vmin 15vmin;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.img_bg {
+    height: 50vh;
+    width: 100%;
+    background-image: url(imgs/aboutbgimg.jpg);
+    background-color: gray;
+    background-size: cover;
+    background-position-y: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 5px 5px black;
+
+}
+
+
+
+
+.AA {
+    font-size: 8vw;
+    transform: translateY(20%);
+    opacity: 0;
+    transition: 1s;
+    animation-delay: 2s;
+
+}
+
+.show1 {
+    transform: translateY(0);
+    opacity: 1;
+
+}
+
+
+.EPC {
+    font-size: 1.5vw;
+    letter-spacing: 18px;
+    transform: translateY(20%);
+    opacity: 0;
+    transition: 1s;
+    animation-delay: 2s;
+
+}
+
+.show2 {
+    transform: translateY(0);
+    opacity: 1;
+    letter-spacing: 5px;
+
+
+}
+
+.HDAG {
+    font-size: 1.3vw;
+    letter-spacing: 18px;
+    transform: translateY(20%);
+    opacity: 0;
+    transition: 1s;
+    animation-delay: 2s;
+
+}
+
+.show3 {
+    transform: translateY(0);
+    opacity: 1;
+    letter-spacing: 3px;
+
+
+}
+
+
+/* style for our servecies */
+
+.our-services {
+    width: 100%;
+    padding: 5vmin 0 5vmin 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-services h1 {
+    font-size: 2.5rem;
+}
+
+.services {
+    width: 100%;
+    /* background-color: blue; */
+    display: grid;
+    grid-template-columns: auto auto;
+
+
+}
+
+.events {
+    padding: 2vmin;
+    margin: 3vmin;
+    box-shadow: .1px .1px 2px rgb(162, 159, 159);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.events img {
+    width: 30%;
+    object-fit: contain;
+    border: 5px solid #393E46;
+    border-radius: 50%;
+}
+
+.events .text {
+    padding: 3vmin;
+}
+
+.events h3 {
+    font-size: 2rem;
+    padding: 2vmin 0 2vmin 0;
+}
+
+#other {
+    grid-column: span 2;
+    text-align: center;
+}
+
+
+/* style for why us */
+.why-us h3 {
+    font-size: 2.5em;
+    text-align: center;
+    padding: 5vmin 0 5vmin 0;
+
+}
+
+.why-us dl {
+    box-shadow: .1px .1px 2px rgb(162, 159, 159);
+    margin: 3vmin;
+    padding: 3vmin;
+    border-radius: 30px;
+
+
+
+}
+
+.why-us dt {
+    padding: 0 0 0 5vmin;
+    font-size: 1.8rem;
+
+}
+
+.why-us dd {
+    padding: 3vmin 7vmin 8vmin 11vmin;
+    font-size: 1rem;
+
+}
+
+
+/* style for btns */
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 60vmin;
+    padding: 3vmin 0;
+    align-items: center;
+}
+
+.btn {
+    border: none;
+    box-shadow: .1px .1px 20px rgb(162, 159, 159);
+
+    font-size: 3vmin;
+    background-color: #393E46;
+    color: #FEFBF6;
+    border-radius: 30px;
+    padding: .7rem;
+}
+
+
+
+
+
+
+/* footer of the page */
+.footer {
+    width: 100%;
+    /* height: 150vh; */
+    color: #FEFBF6;
+    background-color: #393E46;
+}
+
+.contect-info {
+    padding: 7vmin;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.contect-info a {
+    text-decoration: none;
+    color: #FEFBF6;
+    font-size: 1.2rem;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+.contect-info p svg {
+    padding: 0 1rem 0 1rem;
+}
+
+.contect-info h3 {
+    font-size: 2.2em;
+
+}
+
+#abc {
+    padding: 5vmin 10vmin 5vmin 10vmin;
+}
+
+.founders {
+    text-align: center;
+}
+
+.founders h3 {
+    font-size: 2.2em;
+    padding: 2rem;
+}
+
+.f-img img {
+    width: 15%;
+    border: 5px solid #F2E7D5;
+    border-radius: 50%;
+}
+
+.f-img p {
+    font-size: 1.2rem;
+    padding: 1.2rem;
+}
+
+.f-details {
+    display: flex;
+
+
+}
+
+.fa-brands {
+    color: white;
+    font-size: 1.5rem;
+    padding: .2rem .5rem 0 .5rem;
+
+}
+
+#a {
+    margin: 7vmin 50vmin;
+}
+
+.copy {
+    text-align: center;
+    padding: 0 0 7vmin 0;
+
+}
+
+/* animation */
+
+/* reveal class is for those animation who came out from side */
+.reveal {
+    opacity: 0;
+    transform: translateX(-20%);
+    transition: 1s ease-out;
+    animation-delay: 2ms;
+}
+
+/* for those animation who came out from down */
+.reveal2 {
+    opacity: 0;
+    transform: translateY(70%);
+    transition: 1s ease-out;
+    animation-delay: 5ms;
+}
+
+.revealed {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+
+/* scroll bar for page */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #F2E7D5; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #393E46; 
+    border-radius: 20px;
+
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #121721; 
+  }
+
+/* media queries */
+
+@media only screen  and (max-width: 480px){
+    header {
+        height: 15vh;
+        display: block;
+        text-align: center;
+        padding: 5vmin 0 3vmin 0;
+        justify-content: space-between;
+    
+    }
+    header h1{
+        margin: 0;
+        padding: 0 0 6vmin 0;
+
+    }
+    .one{
+        padding: 2vh 9vw;
+        font-size: 1.2rem;
+    }
+    .AA{
+        font-size: 10vw;
+        padding: 0 0 4vw 0;
+    }
+    .EPC{
+        font-size: 3.4vw;
+        padding: 0 0 4vw 0;
+
+    }
+    .HDAG{
+        font-size: 3.8vw;
+        padding: 0 0 4vw 0;
+
+    }
+
+
+    .events{
+        padding: 4vmin;
+    }
+    .events img{
+        border-radius: 25%;
+
+    }
+    .services{
+        display: block;
+    }
+    .btns{
+        gap: 25vmin;
+    }
+    .contect-info{
+        display: block;
+        text-align: center;
+        font-size: 1rem;
+        padding: 1rem 0;
+    }
+    
+    .contect-info svg{
+        display: none;
+    }
+    .contect-info p{
+        margin: 5vmin;
+    }
+    .f-details{
+        display: block;
+
+    }
+    .f-img{
+        margin: 6vmin 0;
+    }
+    .f-img img{
+        width: 35%;
+    }
+    #a{
+        margin: 7vmin 25vmin;
+    }
+    .copy{
+        font-size: .5rem;
+    }
+
+}
